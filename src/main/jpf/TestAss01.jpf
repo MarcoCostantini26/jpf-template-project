@@ -1,0 +1,9 @@
+target = pcd.ass01.ThreadBoidsJPFTest
+
+classpath=build/classes/java/main
+
+sourcepath=src/main/java
+
+listener=gov.nasa.jpf.listener.PreciseRaceDetector
+
+report.console.property_violation=error,trace
